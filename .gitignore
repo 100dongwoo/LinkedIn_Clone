@@ -10,6 +10,9 @@
 
 # production
 /build
+.idea/
+/.idea
+firebase.js
 
 # misc
 .DS_Store
