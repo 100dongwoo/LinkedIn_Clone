@@ -37,7 +37,7 @@ function Header(props) {
                 <HeaderOption Icon={BusinessCenterIcon} title="Jobs" />
                 <HeaderOption Icon={ChatIcon} title="Messaging" />
                 <HeaderOption Icon={NotificationsIcon} title="Notifications" />
-                <HeaderOption avatar={user.user.photoURL} title="me" />
+                <HeaderOption avatar="a" title="me" />
             </div>
         </div>
     );
