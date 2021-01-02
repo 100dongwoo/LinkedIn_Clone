@@ -9,10 +9,8 @@ import Login from './components/Login/Login';
 
 function App() {
     const user = useSelector(selectUser);
-
     return (
         <div className="app">
-            {console.log(user)}
             {!user.user ? (
                 <Login />
             ) : (
